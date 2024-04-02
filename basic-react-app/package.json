@@ -9,8 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^3.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "redux": "^5.0.1",
+    "save": "^2.9.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

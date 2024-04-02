@@ -1,4 +1,4 @@
-import { MouseEvent, useState } from "react";
+import { MouseEvent } from "react";
 
 function FormControls() {
   const handleClick = (event: MouseEvent) => console.log(event);

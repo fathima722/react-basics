@@ -1,12 +1,15 @@
-import ListGroup from "./components/ListGroup";
+import Exercise1 from "./components/Exercise1";
+import './App.css';
+import InputTasks from "./components/InputTasks";
 
 function App() {
   //return <div><Message></Message></div>;
   return (
-    <div>
-      <ListGroup />
+    <div className="container">
+      <Exercise1/>
+      <InputTasks />
     </div>
-  ); //-> example of using self-closing syntax
+  ); //-> example of using self-closing syntax <Exercise1 />
 }
 
 export default App;
