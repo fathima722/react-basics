@@ -37,3 +37,8 @@ This is a configuration file for vite.
 "ts","tsx" are the typescript file extensions we use quite often where ".ts" is for plain typescript files and ".tsx" is for react components.
 There are two ways to create a react component (We can use a JavaScript class or a function). 
 Function based components are more concise and easier to use (Recommended approach for new projects).
+
+A component where the state is stored becomes the Context Provider and the component the utilizes this state from the context provider is called the Context Consumer.
+
+You need to add the React router library to achieve the illusion of loading different pages in a React app.
+importing the react router in a react project as follows: import {BrowserRouter} from 'react-router-dom
